@@ -202,7 +202,7 @@ header nav ul li a {
 }
 
 main {
-  padding: 100px;
+  padding: 20px 100px;
 }
 main .item img {
   display: flex;
@@ -214,17 +214,31 @@ main .item img {
 }
 
 .text {
-  padding: 10px 0;
+  padding: 20px 0;
   font-size: 25px;
   display: flex;
   justify-content: space-between;
 }
+.text p {
+  padding: 20px 0;
+}
 
-.text button {
+.popular-item .item {
+  padding: 10px 0;
+}
+
+.text-button {
+  padding: 15px 0;
+}
+
+.text-button button {
   border: none;
   width: 70px;
+  height: 30px;
   border-radius: 10px;
   background-color: #6bb252;
+  font-family: Inter;
+  color: white;
 }
 
 .item {
@@ -268,6 +282,7 @@ main .item img {
   align-items: center;
   padding: 10px 0;
 }
+
 .price .grey {
   color: grey;
   text-decoration: line-through;
@@ -328,9 +343,18 @@ main .item img {
 .infor {
   border: 1px solid #d2d2d2;
 }
+
+.infor-O h4 {
+  font-family: Inter;
+}
+
+.infor-O p {
+  font-family: Roboto;
+}
+
 .infor-image img {
   width: 100%;
-  height: 310px;
+  height: 265px;
 }
 .infor-O {
   padding: 20px 10px;
@@ -356,6 +380,14 @@ main .item img {
   border: 1px solid #d2d2d2;
   padding: 20px 30px;
 }
+
+.table-O {
+  font-family: Open Sans;
+}
+
+.table-O h4 {
+  font-family: Open Sans;
+}
 .people-looking {
   display: flex;
   flex-wrap: wrap;
@@ -367,6 +399,7 @@ main .item img {
   font-size: 15px;
   border-radius: 5px;
   background: #ddf6d5;
+  font-family: Open Sans;
 }
 
 .quatity {
@@ -453,9 +486,14 @@ footer {
   gap: 10px;
 }
 
+footer h3 {
+  font-family: Open Sans;
+}
+
 .ft-p {
   padding: 15px 0;
   color: #747474;
+  font-family: Open Sans;
 }
 
 .footer-search input {
@@ -485,3 +523,6 @@ footer {
 .footer p {
   padding: 7px 0;
 }
+
+//Mobile: width < 740px
+@media only screen and (max-width: 46.1875em);
