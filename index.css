@@ -66,6 +66,7 @@ header {
 header nav ul {
   display: flex;
   gap: 10px;
+  
 }
 header nav ul li a::before {
   content: "";
@@ -76,6 +77,11 @@ header nav ul li a::before {
   left: 0;
   top: 100%;
   transition: 0.3s ease-in-out;
+}
+
+.menu-children {
+  display: none;
+  position: absolute;
 }
 header nav ul li {
   list-style: none;
@@ -126,7 +132,12 @@ header nav ul li a {
   display: flex;
   gap: 10px;
 }
-
+.bar svg {
+  width: 30px;
+}
+.bar {
+  display: none;
+}
 .banner-button button {
   padding: 15px 30px;
   border-radius: 50px;
@@ -201,9 +212,9 @@ header nav ul li a {
 .banner-content-chid:last-child {
   background-color: #6bb252;
 }
-
-main {
-  padding: 20px 100px;
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 main .item img {
   display: flex;
@@ -247,25 +258,30 @@ main .item img {
 }
 
 .all-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
 }
 .list {
+  width: 220px;
   margin-top: 10px;
   display: grid;
   position: relative;
-  width: 16%;
   text-align: center;
   grid-template-columns: (1fr, 1fr, 1fr, 1fr);
 }
 
 .list-chid {
+  width: 100%;
   padding: 10px 0;
   z-index: 1 !important;
 }
 .list-product img {
   width: 130px;
+  max-width: 100%;
   position: relative;
   z-index: 1 !important;
 }
@@ -461,15 +477,16 @@ main .item img {
   transition: 0.5s ease-in-out;
 }
 .list-chid:hover .action-quatity {
-  display: block;
+  opacity: 1;00
 }
 .list:hover .list-chid {
   visibility: visible;
   transform: scale(1.2, 1.1);
+  transition: transform 0.5s ease, opacity 0.5s ease;
   padding: 10px 5px;
   z-index: 999 !important;
   position: absolute;
-  left: 0;
+  left: 3px;
   background: white;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -479,7 +496,7 @@ main .item img {
 .action-quatity {
   position: relative;
   z-index: 9999;
-  display: none;
+  opacity: 0;
 }
 
 footer {
@@ -525,5 +542,14 @@ footer h3 {
   padding: 7px 0;
 }
 
-//Mobile: width < 740px
-@media only screen and (max-width: 46.1875em);
+.footer-menu {
+  padding: 50px 0;
+  display: flex
+}
+
+
+
+
+
+
+

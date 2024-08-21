@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./reponsite.css" />
+    <style>
+
+    </style>
   </head>
   <body>
     <header>
@@ -79,6 +83,22 @@
           </svg>
         </div>
       </div>
+      <div id="bar" class="bar">
+        <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+      </div>
+
+      <div id="menu-children" class="menu-children">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">SALE</a></li>
+          <li><a href="">STORES</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+
     </header>
     <section class="banner">
       <img src="./img/banner.jpg" alt="" />
@@ -169,22 +189,44 @@ at your<span> Doorsteps</span></pre>
         </div>
       </div>
     </section>
-
-    <main>
+    <main class="container">
       <div class="popular-item">
         <div class="text">
           <p style="font-family: Inter">Popular categories</p>
         </div>
         <div class="item">
-          <img src="./img/apple.jpg" alt="" />
-
-          <img src="./img/apple.jpg" alt="" />
-          <img src="./img/coc.jpg" alt="" />
-          <img src="./img/apple.jpg" alt="" />
-          <img src="./img/apple.jpg" alt="" />
-          <img src="./img/coc.jpg" alt="" />
-          <img src="./img/apple.jpg" alt="" />
-          <img src="./img/coc.jpg" alt="" />
+          <div>
+            <img src="./img/apple.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Fruits & Veges</span>
+          </div>
+          <div>
+            <img src="./img/apple.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Breads & Sweets</span>
+          </div>
+          <div>
+            <img src="./img/coc.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Breads & Sweets</span>
+          </div>
+          <div>
+            <img src="./img/apple.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Oil & Ghee</span>
+          </div>
+          <div>
+            <img src="./img/apple.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Raw Meat</span>
+          </div>
+          <div>
+            <img src="./img/coc.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Natural Herbs</span>
+          </div>
+          <div>
+            <img src="./img/egg.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Natural Herbs</span>
+          </div>
+          <div>
+            <img src="./img/br.jpg" alt="" />
+            <span style="font-family: Inter; padding: 0 30px;">Natural Herbs</span>
+          </div>
         </div>
       </div>
 
@@ -3279,7 +3321,6 @@ at your<span> Doorsteps</span></pre>
         </div>
       </div>
 
-      <div class=""></div>
 
       <div class="Tab">
         <div class="table">
@@ -3411,47 +3452,55 @@ at your<span> Doorsteps</span></pre>
     </main>
 
     <footer class="footer">
-      <h1 style="padding: 0 100px;">Organic</h1>
+      <h1 style="padding: 50px 100px;">Organic</h1>
 
-      <div style="padding: 0 45px">
-        <h3>Ouick links</h3>
-        <div class="ft-p">
-          <p>Home</p>
-          <p>About Us</p>
-          <p>Offers</p>
-          <p>Service</p>
+      <div class="footer-menu">
+        <div class="" style="padding: 0 45px">
+          <h3>Ouick links</h3>
+          <div class="ft-p">
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Offers</p>
+            <p>Service</p>
+          </div>
         </div>
-      </div>
-      <div style="padding: 0 45px">
-        <h3>About</h3>
-        <div class="ft-p">
-          <p>How it work</p>
-          <p>Packages</p>
-          <p>Promotions</p>
-          <p>A friend</p>
+        <div style="padding: 0 45px">
+          <h3>About</h3>
+          <div class="ft-p">
+            <p>How it work</p>
+            <p>Packages</p>
+            <p>Promotions</p>
+            <p>A friend</p>
+          </div>
         </div>
-      </div>
-      <div style="padding: 0 45px">
-        <h3>Help Centre</h3>
-        <div class="ft-p">
-          <p>Payments</p>
-          <p>Shipping</p>
-          <p>Product</p>
-          <p>returns</p>
+        <div style="padding: 0 45px">
+          <h3>Help Centre</h3>
+          <div class="ft-p">
+            <p>Payments</p>
+            <p>Shipping</p>
+            <p>Product</p>
+            <p>returns</p>
+          </div>
         </div>
-      </div>
-      <div style="padding: 0 45px">
-        <h3>Our newsletter</h3>
-        <div class="ft-p">
-          <p>
-            Subscribe to our newsletter to get updates about our grand offers.
-          </p>
-          <div class="footer-search">
-            <input type="search" placeholder="Enter your Email-Address" />
-            <button>SEND</button>
+      
+        <div style="padding: 0 45px">
+          <h3>Our newsletter</h3>
+          <div class="ft-p">
+            <p>
+              Subscribe to our newsletter to get updates about our grand offers.
+            </p>
+            <div class="footer-search">
+              <input type="search" placeholder="Enter your Email-Address" />
+              <button>SEND</button>
+            </div>
           </div>
         </div>
       </div>
+      
     </footer>
+
+    <script src="./main.js">
+
+    </script>
   </body>
 </html
