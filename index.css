@@ -49,7 +49,7 @@ header {
   border: 1px solid rgb(207, 207, 207);
   outline: none;
   border-radius: 10px 0 0 10px;
-  background-color: rgb(227, 227, 227);
+  background-color: #F5F5F5;
 }
 .header-search {
   position: relative;
@@ -57,6 +57,7 @@ header {
 .header-search button {
   padding: 10.7px;
   background-color: rgb(66, 178, 72);
+  font-family: Inter;
   border: none;
   border-radius: 0 10px 10px 0;
   position: absolute;
@@ -117,6 +118,7 @@ header nav ul li a {
   max-width: 500px;
   top: 16%;
   left: 10%;
+ 
 }
 .banner-title > pre span:first-child {
   color: rgb(66, 178, 72);
@@ -143,6 +145,7 @@ header nav ul li a {
   border-radius: 50px;
   border: none !important;
   cursor: pointer;
+  font-size: 20px;
 }
 .banner-button {
   padding: 30px 0;
@@ -150,6 +153,7 @@ header nav ul li a {
 .banner-button button:first-child {
   background-color: rgb(66, 178, 72);
   color: white;
+  font-family: Inter;
 }
 .banner-button button:last-child {
   background-color: black;
@@ -171,7 +175,8 @@ header nav ul li a {
   font-size: 25px;
 }
 .banner-bottom-chid p {
-  font-size: 15px;
+  font-size: 14px;
+  font-family: Inter;
 }
 .banner-content-chid svg {
   width: 60px;
@@ -187,13 +192,16 @@ header nav ul li a {
 .banner-content {
   display: flex;
   position: absolute;
-  top: 89.3%;
+  top: 88.8%;
   left: 50%;
   transform: translateX(-50%);
 }
-.banner-content-chid h4 {
-  font-size: 19px;
-
+.banner-content-child p{
+  font-family: Open Sans;
+}
+.banner-content-chid-tt h4 {
+  font-size: 24px;
+  font-family: Inter;
   color: white;
   padding-bottom: 5px;
 }
@@ -232,11 +240,13 @@ main .item img {
   justify-content: space-between;
 }
 .text p {
-  padding: 20px 0;
+  
+  font-family: Inter;
 }
 
 .popular-item .item {
   padding: 10px 0;
+  /* gap: 17px; */
 }
 
 .text-button {
@@ -255,6 +265,11 @@ main .item img {
 
 .item {
   display: flex;
+}
+.item span{
+  font-family: Inter;
+  padding: 0 16px;
+  /* text-align: center */
 }
 
 .all-list {
@@ -278,6 +293,12 @@ main .item img {
   width: 100%;
   padding: 10px 0;
   z-index: 1 !important;
+  
+}
+
+.list-chid p{
+  font-family: Inter;
+  font-size: 16px;
 }
 .list-product img {
   width: 130px;
@@ -310,6 +331,16 @@ main .item img {
   border: 1px solid #c9c9c9;
   padding: 2px !important;
 }
+
+.star{
+ 
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  color: #ffc43f;
+  padding-bottom: 10px;
+              
+}
 .Tbanner {
   width: 100%;
   display: flex;
@@ -339,6 +370,11 @@ main .item img {
   width: 25px;
 }
 
+.menu-right button{
+  border: none;
+  background-color: none;
+}
+
 .image {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -349,6 +385,11 @@ main .item img {
   display: flex;
   justify-content: center;
   padding: 0 5px 0;
+}
+
+.image p {
+  font-size: 16px;
+  font-family: Inter;
 }
 
 .information {
@@ -365,8 +406,12 @@ main .item img {
   font-family: Inter;
 }
 
+
 .infor-O p {
   font-family: Roboto;
+  display: flex;
+  padding: 2px 1px;
+  font-size: 17px;
 }
 
 .infor-image img {
@@ -375,6 +420,16 @@ main .item img {
 }
 .infor-O {
   padding: 20px 10px;
+  
+  
+}
+
+.infor-O a{
+  text-decoration: underline; 
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  
 }
 
 .inf {
@@ -382,10 +437,7 @@ main .item img {
   gap: 150px;
 }
 
-.infor-O p {
-  display: flex;
-  padding: 2px 1px;
-}
+
 
 .Tab {
   display: grid;
@@ -403,12 +455,18 @@ main .item img {
 }
 
 .table-O h4 {
+  font-family: Inter;
+  color: #333333;
+}
+.table-O p {
   font-family: Open Sans;
+  color: #333333
 }
 .people-looking {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  font-family: Open-Sans;
 }
 
 .people-looking p {
@@ -417,6 +475,7 @@ main .item img {
   border-radius: 5px;
   background: #ddf6d5;
   font-family: Open Sans;
+  color: #555555
 }
 
 .quatity {
@@ -504,6 +563,11 @@ footer {
   gap: 10px;
 }
 
+.footer-logo{
+  padding: 50px 65px;
+  
+}
+
 footer h3 {
   font-family: Open Sans;
 }
@@ -517,34 +581,121 @@ footer h3 {
 .footer-search input {
   padding: 10px 15px;
   min-width: 100px;
-  width: 52%;
+  width: 70%;
   border: 1px solid rgb(207, 207, 207);
   outline: none;
   border-radius: 10px 0 0 10px;
   background-color: rgb(227, 227, 227);
+  font-family: Open Sans;
+  font-size: 16px
 }
 
 .footer-search {
   position: relative;
+  width: 341px;
 }
 
 .footer-search button {
-  padding: 10.7px;
+  padding: 13.7px;
   background-color: rgb(66, 178, 72);
   border: none;
   border-radius: 0 10px 10px 0;
   position: absolute;
   color: white;
   cursor: pointer;
+  width: 19%;
 }
 
-.footer p {
+
+
+.footer-menu p {
   padding: 7px 0;
+  font-size: 16px;
+  font-family: Open Sans;
+  color: #747474
+
 }
 
 .footer-menu {
   padding: 50px 0;
   display: flex
+}
+
+.swiper {
+  width: 100%;
+  padding: 20px 0;
+  
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.swiper-slide img {
+  /* width: 160px; */
+  width: 100%;
+  /* height: 160px; */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  /* max-width: 250px;  */
+  aspect-ratio: 1;
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; 
+}
+
+.swiper-slide span {
+  font-size: 16px;
+  color: #333; 
+  font-family: Inter;
+  margin-top: 10px;
+}
+
+
+.popular-item {
+  position: relative;
+}
+
+.menu-right {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+  color: #333;
+  /* display: none */
+}
+
+.swiper-button-prev {
+  order: 1;
+ 
+}
+
+.swiper-button-next {
+  order: 2;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px; /* Điều chỉnh kích thước icon bên trong nút */
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #0056b3; /* Màu khi di chuột qua nút điều hướng */
+} 
+
+.swiper-wrapper{
+  display: grid;
+  grid-template-column: repeat(3, 1fr)
 }
 
 

@@ -36,11 +36,12 @@
   .banner-bottom-chid p {
     font-size: 8px;
     display: block;
+    font-family: Inter;
   }
   .banner-content {
     display: none;
   }
-  .item {
+  .swiper {
     overflow: scroll;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,7 +101,7 @@
   .footer-menu {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 5px;
   }
 
   .menu-children {
@@ -149,5 +150,17 @@
 
   .menu-children ul li a:hover::before {
     width: 100%;
+  }
+
+  .addCart {
+    font-size: 16px;
+  }
+
+  .text-image {
+    width: 170px;
+  }
+
+  .swiper-wrapper {
+    gap: 127px;
   }
 }
