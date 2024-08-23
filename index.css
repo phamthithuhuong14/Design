@@ -298,7 +298,7 @@ main .item img {
 
 .list-chid p{
   font-family: Inter;
-  font-size: 16px;
+  font-size: 13px;
 }
 .list-product img {
   width: 130px;
@@ -498,7 +498,7 @@ main .item img {
   padding: 0 5px;
 }
 .list svg {
-  width: 15px;
+  width: 8px;
 }
 .list-action {
   padding-top: 10px;
@@ -620,6 +620,11 @@ footer h3 {
 .footer-menu {
   padding: 50px 0;
   display: flex
+}
+
+.footer-icon img{
+  width: 30px;
+  padding: ;
 }
 
 .swiper {
