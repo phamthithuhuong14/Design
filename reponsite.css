@@ -94,6 +94,10 @@
     max-width: 100%;
   }
 
+  .list svg {
+    width: 8px;
+  }
+
   footer {
     display: block;
   }
