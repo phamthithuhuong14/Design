@@ -41,8 +41,8 @@ owl.owlCarousel({
       nav: false,
     },
     1000: {
-      items: 5,
-      nav: true,
+      items: 8,
+      nav: false,
       loop: false,
     },
   },

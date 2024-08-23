@@ -372,7 +372,8 @@ main .item img {
 
 .menu-right button{
   border: none;
-  background-color: none;
+  background-color: white;
+  
 }
 
 .image {
@@ -665,6 +666,15 @@ footer h3 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.menu-right .prev svg{
+  background-color: #F1F1F1;
+  
+}
+
+.menu-right .next svg{
+  background-color: #6bb252
 }
 
 
