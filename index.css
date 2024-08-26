@@ -276,7 +276,7 @@ main .item img {
   /* display: flex; */
   display: grid;
   grid-template-columns: repeat(6,1fr);
-
+  gap: 10px;
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
 }
@@ -299,7 +299,13 @@ main .item img {
 .list-chid p{
   font-family: Inter;
   font-size: 13px;
+  
 }
+
+.eight{
+  color: #131313;
+}
+
 .list-product img {
   width: 130px;
   max-width: 100%;
@@ -322,7 +328,7 @@ main .item img {
 }
 
 .price .grey {
-  color: grey;
+  color: #777777;
   text-decoration: line-through;
   front-size: 10px;
 }
@@ -330,6 +336,7 @@ main .item img {
   font-size: 9px;
   border: 1px solid #c9c9c9;
   padding: 2px !important;
+  color: #A5A5A5;
 }
 
 .star{
@@ -341,17 +348,21 @@ main .item img {
   padding-bottom: 10px;
               
 }
+
+.stars {
+  color: #6BB252
+}
 .Tbanner {
   width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .Tbanner-O {
   width: 60%;
 }
 .Tbanner-O img {
   width: 100%;
-  height: 510px;
+  height: 521px;
 }
 .Tbanner-T img {
   width: 100%;
@@ -361,7 +372,7 @@ main .item img {
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .menu-right svg {
@@ -396,7 +407,7 @@ main .item img {
 .information {
   display: grid;
   grid-template-columns: repeat(3, 4fr);
-  gap: 10px;
+  gap: 52px;
 }
 
 .infor {
@@ -438,13 +449,11 @@ main .item img {
   gap: 150px;
 }
 
-
-
 .Tab {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  padding: 15px 0;
+  gap: 20px;
+  padding: 20px 0;
 }
 .table {
   border: 1px solid #d2d2d2;
@@ -466,7 +475,7 @@ main .item img {
 .people-looking {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   font-family: Open-Sans;
 }
 
@@ -679,7 +688,8 @@ footer h3 {
 }
 
 .menu-right .next svg{
-  background-color: #6bb252
+  background-color: #6bb252;
+  color: #FFFFFF;
 }
 
 
