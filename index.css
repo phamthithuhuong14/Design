@@ -383,6 +383,7 @@ main .item img {
   border: 1px solid white;
   border-radius: 5px;
   width: 25px;
+  cursor: pointer;
 }
 
 .menu-right button{

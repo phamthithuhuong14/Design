@@ -177,6 +177,10 @@
     position: relative;
   }
 
+  .menu-right svg {
+    cursor: pointer;
+  }
+
   .menu-children ul li a::before {
     content: "";
     width: 0;
