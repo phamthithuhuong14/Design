@@ -20,11 +20,11 @@
   }
 
   .banner-title > pre {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .banner .banner-title {
-    top: 6%;
+    top: 27%;
   }
 
   .banner-button {
@@ -32,29 +32,37 @@
   }
   .banner-button button {
     padding: 7px 14px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .banner-bottom .banner-bottom-chid {
     display: flex;
     align-items: center;
     gap: 10px;
-    max-width: 80px;
+    min-width: 80px;
   }
 
   .banner-bottom-chid h3 {
-    font-size: 13px;
+    font-size: 15px;
     display: block;
   }
   .banner-bottom-chid p {
-    font-size: 8px;
+    font-size: 12px;
     display: block;
     font-family: Inter;
   }
 
+  .banner-bottom {
+    width: 79%;
+  }
+
   .banner-content {
-    top: 68%;
-    width: 100%;
-    height: 31%;
+    top: 87%;
+    width: 55%;
+    height: 12%;
+  }
+
+  .text-image {
+    margin-left: 54px;
   }
 
   .banner-content-chid h4 {
@@ -69,20 +77,25 @@
     width: 35px;
     color: white;
   }
-  banner-content-chid:nth-child {
+  .banner-content-chid:nth-child {
     width: 28%;
+  }
+
+  .infor-image img {
+    width: 100%;
+    height: 179px;
   }
 
   .swiper {
     overflow: scroll;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     gap: 10px;
   }
   .all-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     gap: 10px;
   }
@@ -94,29 +107,35 @@
   }
   .Tbanner-O img {
     width: 100%;
-    height: 221px;
+    height: 340px;
   }
   .Tbanner-T img {
     width: 100%;
-    height: 100px;
+    height: 160px;
   }
   .list:hover .list-chid {
     left: 10px;
   }
   .information {
     display: grid;
-    grid-template-columns: repeat(1, 4fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
   }
   .Tab {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 15px 0;
+    padding: 30px 0;
   }
+
+  .table {
+    padding: 20px 30px;
+  }
+
   main {
     padding: 0 15px;
   }
+
   .list {
     width: 89%;
   }
@@ -141,6 +160,7 @@
   .footer-menu {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding: 0 15px;
     /* gap: 5px; */
   }
 
@@ -206,5 +226,146 @@
 
   .swiper-wrapper {
     gap: 127px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner .banner-title {
+    top: 20%;
+    width: 29%;
+  }
+
+  .banner-title > pre {
+    font-size: 32px;
+  }
+
+  .banner-button button {
+    margin-left: 25px;
+  }
+
+  .banner-content {
+    height: 13%;
+    width: 73%;
+    top: 86%;
+  }
+
+  .text-image {
+    margin-left: 36px;
+  }
+
+  .all-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .Tbanner-O img {
+    height: 77%;
+  }
+
+  .Tbanner-T img {
+    height: 157px;
+  }
+
+  .infor-image img {
+    height: 189px;
+  }
+
+  .information {
+    gap: 30px;
+  }
+
+  .Tab {
+    gap: 18px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .table {
+    width: 246px;
+  }
+
+  .footer-logo {
+    padding: 0 44px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 15px 1px;
+  }
+
+  .banner-content {
+    top: 85%;
+    height: 14%;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .banner-title > pre {
+    font-size: 21px;
+  }
+
+  .banner-button button {
+    min-width: 93px;
+    font-size: 9px;
+    height: 27px;
+  }
+
+  .banner-button-chid {
+    min-width: 99%;
+  }
+
+  .banner-button-chid h3 {
+    font-size: 13px;
+  }
+
+  .banner-button-chid p {
+    font-size: 11px;
+  }
+
+  .all-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .banner-content-chid-tt h4 {
+    font-size: 7px;
+  }
+
+  .banner-content-chid-tt p {
+    font-size: 6px;
+  }
+  .banner-content-chid-tt svg {
+    font-size: 22px;
+  }
+
+  .Tbanner-O img {
+    width: 100%;
+  }
+
+  .Tbanner-T img {
+    height: 35%;
+  }
+
+  .information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .infor-image img {
+    height: 140px;
+  }
+
+  .table {
+    width: 200px;
+    height: 126px;
+  }
+
+  .table-O {
+    font-size: 12px;
   }
 }

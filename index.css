@@ -715,11 +715,11 @@ footer h3 {
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 16px; /* Điều chỉnh kích thước icon bên trong nút */
+  font-size: 16px; 
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: #0056b3; /* Màu khi di chuột qua nút điều hướng */
+  color: #0056b3; 
 } 
 
 .swiper-wrapper{
