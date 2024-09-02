@@ -33,6 +33,7 @@
   .banner-button button {
     padding: 7px 14px;
     font-size: 15px;
+    min-width: 99px;
   }
   .banner-bottom .banner-bottom-chid {
     display: flex;
@@ -46,7 +47,7 @@
     display: block;
   }
   .banner-bottom-chid p {
-    font-size: 12px;
+    font-size: 8px;
     display: block;
     font-family: Inter;
   }
@@ -83,7 +84,7 @@
 
   .infor-image img {
     width: 100%;
-    height: 179px;
+    height: 160px;
   }
 
   .swiper {
@@ -95,7 +96,7 @@
   }
   .all-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     gap: 10px;
   }
@@ -146,7 +147,7 @@
 
   .list-product img {
     width: 100px;
-    max-width: 100%;
+    min-width: 40%;
   }
 
   .list svg {
@@ -241,6 +242,19 @@
 
   .banner-button button {
     margin-left: 25px;
+    font-size: 10px;
+  }
+
+  .banner-bottom .banner-bottom-chid {
+    min-width: 59%;
+  }
+
+  .banner-bottom-chid h3 {
+    font-size: 8px;
+  }
+
+  . .banner-bottom-chid p {
+    font-size: 5px;
   }
 
   .banner-content {
@@ -315,16 +329,16 @@
     height: 27px;
   }
 
-  .banner-button-chid {
-    min-width: 99%;
+  .banner-bottom-chid {
+    min-width: 100%;
   }
 
-  .banner-button-chid h3 {
-    font-size: 13px;
+  .banner-bottom-chid h3 {
+    font-size: 9px;
   }
 
-  .banner-button-chid p {
-    font-size: 11px;
+  .banner-bottom-chid p {
+    font-size: 4px;
   }
 
   .all-list {
@@ -343,12 +357,17 @@
     font-size: 22px;
   }
 
+  .Tab {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .Tbanner-O img {
     width: 100%;
   }
 
   .Tbanner-T img {
-    height: 35%;
+    height: 33%;
   }
 
   .information {
@@ -357,12 +376,16 @@
   }
 
   .infor-image img {
-    height: 140px;
+    height: 122px;
+  }
+
+  .infor .infor-O h4 {
+    font-size: 18px;
   }
 
   .table {
-    width: 200px;
-    height: 126px;
+    width: 210px;
+    height: 121px;
   }
 
   .table-O {
