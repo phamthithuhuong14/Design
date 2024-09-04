@@ -57,7 +57,7 @@
   }
 
   .banner-content {
-    top: 87%;
+    top: 88%;
     width: 55%;
     height: 12%;
   }
@@ -228,6 +228,12 @@
   .swiper-wrapper {
     gap: 127px;
   }
+
+  .footer-list .footer-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 52px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -258,13 +264,13 @@
   }
 
   .banner-content {
-    height: 13%;
+    height: 14%;
     width: 73%;
     top: 86%;
   }
 
   .text-image {
-    margin-left: 36px;
+    margin-left: 5px;
   }
 
   .all-list {
@@ -279,11 +285,11 @@
   }
 
   .Tbanner-T img {
-    height: 100px;
+    height: 119px;
   }
 
   .infor-image img {
-    height: 189px;
+    height: 137px;
   }
 
   .information {
@@ -291,7 +297,7 @@
   }
 
   .Tab {
-    gap: 18px;
+    gap: 16px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -299,15 +305,21 @@
   .table {
     width: 246px;
   }
+
+  .footer-list .footer-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 18px 10px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   header {
-    padding: 15px 1px;
+    padding: 15px 17px;
   }
 
   .banner-content {
-    top: 85%;
+    top: 86%;
     height: 14%;
   }
 
@@ -343,17 +355,17 @@
   }
 
   .banner-content-chid-tt h4 {
-    font-size: 7px;
+    font-size: 4px;
   }
 
   .banner-content-chid-tt p {
-    font-size: 6px;
+    font-size: 4px;
   }
   .banner-content-chid-tt svg {
     font-size: 22px;
   }
 
-  .Tab {
+  .Tab.grid-table {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -376,10 +388,18 @@
   }
 
   .infor .infor-O h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .table {
+  .infor-O p {
+    font-size: 13px;
+  }
+
+  .infor-O a {
+    font-size: 12px;
+  }
+
+  .infor .table {
     width: 210px;
     height: 121px;
   }
@@ -392,7 +412,15 @@
     padding: 10px 0;
   }
 
-  .footer-list {
-    
+  .ft-t p {
+    width: 186px;
+  }
+
+  .footer-search {
+    width: 280px;
+  }
+
+  .footer h3 {
+    width: 159px;
   }
 }

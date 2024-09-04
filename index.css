@@ -359,7 +359,7 @@ main .item img {
 .Tbanner {
   width: 100%;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 .Tbanner-O {
   width: 60%;
