@@ -299,10 +299,6 @@
   .table {
     width: 246px;
   }
-
-  .footer-logo {
-    padding: 0 44px;
-  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -334,7 +330,7 @@
   }
 
   .banner-bottom-chid h3 {
-    font-size: 9px;
+    font-size: 7px;
   }
 
   .banner-bottom-chid p {
@@ -376,7 +372,7 @@
   }
 
   .infor-image img {
-    height: 122px;
+    height: 105px;
   }
 
   .infor .infor-O h4 {
@@ -390,5 +386,13 @@
 
   .table-O {
     font-size: 12px;
+  }
+
+  .footer-logo {
+    padding: 10px 0;
+  }
+
+  .footer-list {
+    
   }
 }
