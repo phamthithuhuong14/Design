@@ -193,7 +193,7 @@ header nav ul li a {
   display: flex;
   position: absolute;
   /* top: 88.8%; */
-  bottom: 4px;
+  bottom: 1px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -477,6 +477,11 @@ main .item img {
   font-family: Open Sans;
   color: #333333
 }
+
+.table-O-p {
+  width: 200px;
+   margin-top: 5px
+}
 .people-looking {
   display: flex;
   flex-wrap: wrap;
@@ -623,7 +628,7 @@ footer h3 {
 
 .footer-menu p {
   padding: 7px 0;
-  font-size: 16px;
+  font-size: 15px;
   font-family: Open Sans;
   color: #747474
 
